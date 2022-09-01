@@ -10,3 +10,50 @@ html{
     font-family: 'Fredoka', sans-serif;
     font-size: 100%;
 }
+.container{
+    width: 75%;
+    margin: 0 auto;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+/* /COMMON */
+
+/* MAIN */
+.card{
+    background-color: #0e0d0d;
+    margin-right: .8em;
+    margin-top: 2em;
+    float: left;
+    width: calc((100% / 3) - (1.6em / 3));
+    border: 1px solid white;
+}
+.card3{
+    margin-right: 0;
+}
+
+.div-title{
+    text-align: center;
+}
+h1{
+    color: #e53170;
+    margin: 1em;
+}
+img{
+    width: 30%;
+    float: left;
+}
+.info{
+     color: #ffffff;
+     padding: .3em;
+}   
+.email{
+    text-decoration: none;
+    color: #1a627a;
+}
+.div-info{
+    float: left;
+    width: 70%;
+}
